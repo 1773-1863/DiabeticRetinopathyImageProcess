@@ -1,2 +1,1 @@
-web: gunicorn main:app
-web: gunicorn run:app
+web: gunicorn upload_image:app  
