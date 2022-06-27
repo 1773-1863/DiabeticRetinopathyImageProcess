@@ -1,0 +1,15 @@
+    <!doctype html>
+
+    <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <form method=post enctype=multipart/form-data>
+      <h1>Upload new File</h1>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form>
+
+<div class="parent">
+{# <img class="image1" src={{ url_for('static', filename='uploaded_images/FOTO.jpg') }} height="400" width="400" style="float:left"  />#}
+ <img class="image2" src={{ url_for('static', filename='processed_images/FOTO.jpg') }} height="400" width="400" style="float:left" />
+</div>
